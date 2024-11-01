@@ -1,0 +1,5 @@
+<h1>{{ post.name }}</h1>
+<p>{{ post.description }}</p>
+<p>Views: {{ post.views }}</p>
+<p>Published: {{ post.is_published }}</p>
+<a href="{% url 'post_list' %}">Back to Posts</a>
